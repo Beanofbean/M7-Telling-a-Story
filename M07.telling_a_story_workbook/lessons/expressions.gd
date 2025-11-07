@@ -1,0 +1,18 @@
+extends Control
+
+@onready var body: TextureRect = %Body
+@onready var expression: TextureRect = %Expression
+@onready var row_bodies: HBoxContainer = $VBoxContainer/RowBodies
+@onready var row_expressions: HBoxContainer = $VBoxContainer/RowExpressions
+
+
+var bodies := {
+	"sophia": preload("res://assets/sophia.png"),
+	"pink": preload("res://assets/pink.png")
+}
+
+var expressions := {
+	"happy": preload("res://assets/emotion_happy.png"),
+	"regular": preload("res://assets/emotion_regular.png"),
+	"sad": preload("res://assets/emotion_sad.png"),
+}

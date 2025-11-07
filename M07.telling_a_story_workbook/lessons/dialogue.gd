@@ -2,9 +2,9 @@ extends Control
 
 var dialogue_items: Array[String] = [
 	"creegan is the goat",
-	"i wanna go home",
-	"I feel sick",
-	"when is this class going to end",
+	"Почему школа такая длинная?",
+	"yo quiero ir a la casa",
+	"この授業はいつ終わるのですか",
 ]
 var current_item_index := 0
 
